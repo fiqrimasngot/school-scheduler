@@ -42,8 +42,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/amd-global:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/amd-global:${{ env.VERSION }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/school-scheduler:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/school-scheduler:${{ env.VERSION }}
 
       - name: Post build cleanup
         run: docker system prune -f
