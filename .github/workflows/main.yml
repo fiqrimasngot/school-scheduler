@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: gha-runner-scale-set
+    runs-on: gha-web-app
     # runs-on: ubuntu-latest
 
     steps:
