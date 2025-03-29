@@ -1,7 +1,5 @@
 <template>
-  <HelloWorld />
+  <div>Font test</div>
 </template>
 
-<script setup>
-  //
-</script>
+<script setup></script>
