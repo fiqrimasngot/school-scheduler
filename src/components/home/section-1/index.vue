@@ -42,7 +42,7 @@ const config = {
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
